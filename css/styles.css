@@ -1,0 +1,132 @@
+html,
+body {
+  background-color: #2C2B2B;
+}
+
+#full-screen-background-image {
+  -webkit-filter: grayscale(100%);
+  opacity: 0.6;
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.caption {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  font-size: 3em;
+  font-family: 'lato';
+  font-weight: lighter;
+  color: #FFFFFF;
+  /*color: #DF9A4D;*/
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#description {
+  font-size: 1.75em;
+  font-family: 'lato';
+  font-weight: lighter;
+  color: #FFFFFF;
+  margin-right: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.links {
+  font-size: 3.5em;
+  display: inline-block;
+  /*margin-right: 5px;
+    width: 24px;*/
+}
+
+
+/*img {
+  -webkit-filter: grayscale(100%);
+  opacity: 0.6;*/
+
+
+/* Set rules to fill background */
+
+min-height: 100%;
+min-width: 1024px;
+
+/* Set up proportionate scaling */
+
+width: 100%;
+height: auto;
+
+/* Set up positioning */
+
+position: relative;
+top: 0;
+left: 0;
+
+}
+h3,
+h4,
+h6 {
+  font-size: 1.75em;
+  font-family: 'lato';
+  font-weight: lighter;
+  color: #DF9A4D;
+  /*  color: #F1F1F1;*/
+  
+  text-align: center;
+  margin-right: 20px;
+}
+.title {
+  margin-top: 50px;
+}
+#bio,
+#experience,
+#goals,
+#current {
+  background-color: background-color: #2C2B2B;
+}
+#bio {
+  margin-top: 100px;
+}
+#title {
+  margin-top: 0px;
+}
+p {
+  font-family: 'lato';
+  font-size: 18px;
+  font-weight: lighter;
+  color: #3F3030;
+  padding: 30px;
+}
+ul {
+  font-family: 'lato';
+  font-size: 18px;
+  color: #3F3030;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+a {
+  color: rgb(41, 182, 228);
+  text-align: center;
+}
+hr {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+  border-color: #DF9A4D;
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+em {
+  color: #DF9A4D;
+}
